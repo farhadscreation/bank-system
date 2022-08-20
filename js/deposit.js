@@ -26,4 +26,10 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     balanceTotalElement.innerText = currentBalanceTotal;
     // step-7: clear the deposit field
     depositField.value = '';
+
+    if (isNaN(newDepositAmount)) {
+        alert('Please enter a number')
+        return;
+    }
+
 })
