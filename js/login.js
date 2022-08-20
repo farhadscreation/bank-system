@@ -13,7 +13,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     // DO Not Verify email password on the client side
     // step-4: verify email and password
-    if (email === 'myaccount@ownbank.com' && password === 'own9652@') {
+    if (email === 'my@ownbank.com' && password === '1234') {
         window.location.href = 'bank.html'
         alert('login successful')
     }
