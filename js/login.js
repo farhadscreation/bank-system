@@ -20,4 +20,4 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     else {
         alert('Asslamualikum boro vai')
     }
-})
+}) 
