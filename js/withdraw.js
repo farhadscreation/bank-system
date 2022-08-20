@@ -33,7 +33,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
 
     if (newWithdrawAmount > previousBalanceTotal) {
-        alert('curi korlei toh hoi')
+        alert('Mon diye class koro, valo job pele tkhhn ei number gulu use koro...!')
         return;
     }
 
@@ -45,12 +45,4 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
     balanceTotalElement.innerText = newBalanceTotal;
 
-
-
 })
-
-
-
-
-
-
